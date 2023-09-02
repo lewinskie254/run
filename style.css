@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: 'Concert One', cursive;
+}
+
+.main-container {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    background: rgb(83,83,83);
+    background: linear-gradient(180deg, rgba(83,83,83,1) 0%, rgba(57,57,57,1) 25%, rgba(30,30,31,1) 50%, rgba(19,19,19,1) 75%, rgba(5,5,5,1) 100%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.name-container {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.name-container h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.landing-menu {
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0px;
+    color: grey;
+}
+.first-container {
+    background-color: rgb(67, 66, 66);
+    background-image: url(images/5.jpg);
+    mix-blend-mode: soft-light; 
+    border-radius: 14px;
+    padding-top: 20px;
+}
+
+
+
+.img-content-area {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 30px 0 0 10px; 
+    
+}
+
+.img-content-area p {
+    bottom: -20px;
+}
+
+
+
+.image-area img {
+    width: 100%;
+}
+
+.image-area-content {
+    width: 200px;
+    padding: 10px;
+    display: block;
+    overflow-wrap: break-word; 
+    color: #fff;
+}
+
+.popular-dishes {
+    display: flex;
+    overflow: scroll;
+    gap: 1rem;
+}
+
+.trending {
+    max-width: 400px;
+}
+
+.img-trending {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-trending img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.btn {
+    padding: 20px;
+    background-color: rgb(45, 45, 45);
+    margin: 20px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.img-content-area p {
+    font-size: 24px;
+}
